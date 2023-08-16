@@ -13,7 +13,15 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'productioni'
     ? '/ray-1026.github.io/'
     : '/',
-
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      template: 'public/index.html',
+      filename: 'index.html',
+      title: 'Your App Title',
+      mode: 'hash'
+    }
+  },
   pluginOptions: {
     vuetify: {}
   }

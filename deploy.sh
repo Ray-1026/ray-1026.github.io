@@ -6,5 +6,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/Ray-1026/test.git master:gh-pages
+git push -f https://github.com/Ray-1026/ray-1026.github.io.git master:gh-pages
 cd -
