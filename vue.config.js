@@ -18,7 +18,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'Your App Title',
+      title: 'Ray-1026',
       mode: 'hash'
     }
   },
