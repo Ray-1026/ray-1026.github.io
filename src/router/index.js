@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Posts from '../views/Posts.vue'
 import Projects from '../views/Projects.vue'
 import Article from '../views/Article.vue'
+import CV from '../views/CV.vue'
 
 const routes = [
   {
@@ -32,6 +33,14 @@ const routes = [
     path: '/posts/:id',
     name: 'article',
     component: Article
+  },
+  {
+    path: '/CV',
+    name: 'CV',
+    component: CV,
+    props: {
+      pdfUrl: 'CV.pdf'
+    }
   }
 ]
 

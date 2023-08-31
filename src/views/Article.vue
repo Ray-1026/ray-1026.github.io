@@ -1,18 +1,25 @@
 <template>
-  <div>
-    <h1 style="text-align: center; font-size: 36px; margin-top: 48px">
-      {{ article.title }}
-    </h1>
-    <div v-html="renderedHtml" class="markdown-content"></div>
-  </div>
+  <AppBar />
+  <v-main style="min-height: 300px">
+    <div>
+      <h1 style="text-align: center; font-size: 36px; margin-top: 48px">
+        {{ article.title }}
+      </h1>
+      <div v-html="renderedHtml" class="markdown-content"></div>
+    </div>
+  </v-main>
 </template>
 
 <script>
 import axios from "axios";
 import MarkdownIt from "markdown-it";
 import { articles } from "../data.js";
+import AppBar from "../components/AppBar.vue";
 
 export default {
+  components: {
+    AppBar,
+  },
   data() {
     return {
       article: {},
