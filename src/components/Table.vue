@@ -1,5 +1,5 @@
 <template>
-  <v-table style="margin-top: 10px">
+  <v-table style="margin-top: 10px; background-color: #3d3d3d">
     <thead>
       <tr>
         <th class="text-center">Skills</th>
@@ -55,7 +55,7 @@ export default {
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-plain-wordmark.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg",
           ],
         },

@@ -37,6 +37,7 @@ export default {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 3%;
+  margin-bottom: 3%;
 }
 .subsubtitle {
   font-size: 28px;
