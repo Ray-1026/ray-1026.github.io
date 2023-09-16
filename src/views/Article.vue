@@ -40,12 +40,8 @@ export default {
   methods: {
     async loadAndRenderMarkdown() {
       try {
-        // 使用axios或其他适用的方法读取Markdown文件的内容
-        console.log(this.article.content);
         const response = await axios.get("../markdown/" + this.article.content);
         this.markdownContent = response.data;
-
-        // 将Markdown转换为HTML
         this.renderedHtml = this.md.render(this.markdownContent);
       } catch (error) {
         console.error("Error loading and rendering Markdown:", error);
