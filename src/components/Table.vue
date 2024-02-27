@@ -78,9 +78,11 @@ export default {
           ],
         },
         {
-          skill: "Other",
+          skill: "Others",
           icons: [
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg",
           ],
         },
       ],
