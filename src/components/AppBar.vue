@@ -10,9 +10,9 @@
       <router-link to="/about" class="subtitle-link">
         <span>About</span>
       </router-link>
-      <router-link to="/posts" class="subtitle-link">
+      <!-- <router-link to="/posts" class="subtitle-link">
         <span>Posts</span>
-      </router-link>
+      </router-link> -->
       <router-link to="/projects" class="subtitle-link">
         <span>Projects</span>
       </router-link>
